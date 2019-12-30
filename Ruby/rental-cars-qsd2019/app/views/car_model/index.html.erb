@@ -1,0 +1,5 @@
+<% @car_models.each do |car_model| %>
+    <%= link_to car_model.name, car_model %>
+    <br />
+<% end %>
+<%= link_to 'Cadastrar Modelo', new_car_model_path %>

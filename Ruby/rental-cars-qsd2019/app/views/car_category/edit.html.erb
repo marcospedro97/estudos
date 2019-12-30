@@ -1,0 +1,17 @@
+<h1>Atualizar Categoria</h1>
+
+<%= form_with model: @car_category, local: true do |f| %>
+  <%= f.label :name, 'Nome' %>
+  <%= f.text_field :name %>
+  <br />
+  <%= f.label :daily_rate, 'Valor diária'%>
+  <%= f.text_field :daily_rate%>
+  <br />
+  <%= f.label :car_insurance, 'Seguro do veículo'%>
+  <%= f.text_field :car_insurance %>
+  <br />
+  <%= f.label :third_party_insurance, 'Seguro contra terceiros'%>
+  <%= f.text_field :third_party_insurance%>
+  <br />
+  <%= f.submit 'Enviar' %>
+<% end %>
