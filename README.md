@@ -16,8 +16,9 @@ ________________________________________________________
 #####             FOLDER STRUCTURE                 #####
 
 	- Golang
-		[a link](https://github.com/marcospedro97/estudos/tree/master/golang/bfs)
-		[a link]()
+		-[bfs](./golang/bfs)
+		-[binary](./golang/binary)
+		-[fibonacci](./golang/fibonacci)
 	- Java
 
 	- Python
