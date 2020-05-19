@@ -15,13 +15,23 @@ ________________________________________________________
 
 #####             FOLDER STRUCTURE                 #####
 
-Golang
+- Golang
 
--[bfs](./golang/bfs)
--[binary](./golang/binary)
--[fibonacci](./golang/fibonacci)
+	- [bfs](./golang/bfs)
 
-	- Java
+	- [binary](./golang/binary)
+
+	- [fibonacci](./golang/fibonacci)
+
+	- [merge sort](./golang/merge)
+
+	- [perceptron](./golang/perceptron)
+
+	- [prime number recursion](./golang/prime)
+
+	- [quicksort algorithm](./golang/quicksort)
+
+- Java
 
 	- Python
 
