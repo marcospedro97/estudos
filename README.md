@@ -16,9 +16,11 @@ ________________________________________________________
 #####             FOLDER STRUCTURE                 #####
 
 Golang
+
 -[bfs](./golang/bfs)
 -[binary](./golang/binary)
 -[fibonacci](./golang/fibonacci)
+
 	- Java
 
 	- Python
