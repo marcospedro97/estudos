@@ -37,5 +37,19 @@ ________________________________________________________
 
 - Python
 
+	- [web crawler failure :anguished:](./Python/web_crawler)
+
 - Ruby
+	
+	- [aquecimento qsd2019](./Ruby/aquecimento_qsd2019)
+
+	- [qsd cookbook parte1](./Ruby/qsd_cookbook_parte1)
+
+	- [qsd cookbook parte2](./Ruby/qsd_cookbook_parte2)
+
+	- [qsd cookbook parte3](./Ruby/qsd_cookbook_parte3)
+
+	- [rental cars qsd2019 versão do aquecimento](./Ruby/rental-cars-qsd2019)
+
+	- [semana 1](./Ruby/semana_1)
 ________________________________________________________
