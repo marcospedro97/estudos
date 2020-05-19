@@ -12,3 +12,15 @@ see my habilities in that especial language.
 Have a good time, maybe it can help you with your own
 studies!!
 ________________________________________________________
+
+#####             FOLDER STRUCTURE                 #####
+
+	- Golang
+		[a link](https://github.com/marcospedro97/estudos/tree/master/golang/bfs)
+		[a link]()
+	- Java
+
+	- Python
+
+	- Ruby
+________________________________________________________
