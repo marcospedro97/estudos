@@ -1,0 +1,66 @@
+public class Main
+{
+	public static void main(String[] args) {
+	    double l = 0;
+	    for(double i = 0.1; i <= 1; i=i + 0.1){
+	        double x = integral(i, i - 0.1);
+	        l = l + x;
+	    }
+		
+		System.out.println(l);
+	}
+	
+	private static double function(double x){
+	    return Math.exp(x)*Math.sin(x);
+	}
+	private static double integral(double x, double xl){
+	    double h = function(x);
+	    double b = x - xl;
+	    return b * h;
+	}
+}
+
+// a principal dificuldade foi entender a operação matemática, uma vez
+// feito o processo manualmente, a solução de algoritmo se tornou simples
+// já que o algoritmo em si é apenas uma reprodução dos processos feitos no papel
+// a função function é a representação da função base que deve ser processada
+// a função integral pega os valores usados no loop em main que inicia calculando
+// os intervalos que serão usados pela integral aplica eles na função integral que chama
+// a function base, executa com os valores de x dado por main, a operação da integral para o
+// calculo da área do retangulo extraído da function
+
+// no caso da integral o processo é bastante semelhante, no entanto são necessarios valores diferentes
+// nesse caso a function é chamada na main para retornar y e yl que são valores base para o calculo
+// após receber ambos os valores a main chama a função derivada com eles e calcula a derivada que se 
+// consiste no calculo da variação dos valores e a divisão de delta x por delta y.
+
+// em ambos os casos o principal conhecimento que pode ser extraído é o fato de que para construir 
+// um algoritmo qualquer é necessário apenas a compreensão das operações matemáticas que o constituem
+// além da curiosa descoberta de que calculo não é um monstro como se faz parecer no ensino médio, 
+// na realidade é bem divertido.
+
+public class Main
+{
+	public static void main(String[] args) 
+	{
+	        double x = 1;
+	        double xl = 0;
+        	double y = function(x);
+	        double yl = function(xl);
+	        double d = derivada(x, xl, y, yl);
+        	System.out.println(d);
+	}
+	
+	private static double function(double x)
+	{
+	    return Math.exp(x)*Math.sin(x);
+	}
+	
+	private static double derivada(double x, double xl, double y, double yl)
+	{
+	    double dx = xl - x;
+	    double dy = yl - y;
+	    return dx/dy;
+	}
+}
+

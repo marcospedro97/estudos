@@ -1,0 +1,7 @@
+<%= flash[:notice] %>
+<br />
+<% @car_categories.each do |car_category|%>
+    <%= link_to car_category.name, car_category_path(car_category) %>
+    <br />
+<% end %>
+<%= link_to 'Registrar nova categoria', new_car_category_path %>

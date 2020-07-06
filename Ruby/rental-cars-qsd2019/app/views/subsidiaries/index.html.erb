@@ -1,0 +1,7 @@
+<%= flash[:notice]%>
+<br />
+<% @subsidiaries.each do |subsidiary| %>
+  <%= link_to subsidiary.name, subsidiary %>
+  <br />
+<% end %>
+<%= link_to 'Registrar nova filial', new_subsidiary_path %>

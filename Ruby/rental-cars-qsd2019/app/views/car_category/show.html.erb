@@ -1,0 +1,15 @@
+<%= flash[:notice] %>
+<br />
+<%= @car_category.name %>
+<br />
+<%= @car_category.daily_rate %>
+<br />
+<%= @car_category.car_insurance %>
+<br />
+<%= @car_category.third_party_insurance %>
+<br />
+<%= link_to 'Voltar', root_path %>
+<br />
+<%= link_to 'Editar', edit_car_category_path(@car_category)%>
+<br />
+<%= link_to 'Apagar', @car_category, method: :delete , data: {confirm: 'Tem certeza?'} %>
